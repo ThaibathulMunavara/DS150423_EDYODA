@@ -1,0 +1,10 @@
+lim = int(input("enter the limit between 0 to 50: "))
+fib1 = 0
+fib2 =1
+print("1 !")
+for i in range(0,lim+1):
+    fib3=fib1+fib2
+    if(fib3<=50):
+     print(fib3,"!")
+    fib1=fib2
+    fib2=fib3
